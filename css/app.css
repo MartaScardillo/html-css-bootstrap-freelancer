@@ -2,7 +2,7 @@
 
 :root {
     --blue:#2C3E50;
-    --light-blue:#3A546D;
+    --lightblue:#3A546D;
     --green:#1ABC9C;
 }
 
@@ -14,4 +14,38 @@
 
 .bg-green {
     background-color: var(--green);
+}
+
+.bg-lightblue {
+    background-color: var(--lightblue);
+}
+
+img {
+    width: 100%;
+}
+
+/* DEBUG */
+
+.debug [class^="container"] {
+    border: 1px aqua solid;
+    padding: 20px;
+}
+.debug .row {
+    border: 1px blue solid;
+    padding: 20px;
+}
+.debug [class^="col"] {
+    border: 1px cadetblue solid;
+    padding: 20px;
+}
+
+.debug .card {
+    border: 1px darkgoldenrod solid;
+    padding: 20px;
+}
+
+.debug .immaginehero {
+    border: 1px darkblue solid;
+    padding: 20px;
+    height: 225px;
 }
