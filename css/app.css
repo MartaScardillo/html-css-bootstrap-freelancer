@@ -37,6 +37,11 @@ display: inline-block;
 vertical-align: middle;
 }
 
+.icon-circle {
+    height: 40px;
+    width: 40px;
+}
+
 /* DEBUG */
 
 .debug [class^="container"] {
