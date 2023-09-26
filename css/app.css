@@ -20,6 +20,10 @@
     background-color: var(--lightblue);
 }
 
+.text-green {
+    color: var(--green);
+}
+
 img {
     width: 100%;
 }
@@ -47,5 +51,4 @@ img {
 .debug .immaginehero {
     border: 1px darkblue solid;
     padding: 20px;
-    height: 225px;
 }
